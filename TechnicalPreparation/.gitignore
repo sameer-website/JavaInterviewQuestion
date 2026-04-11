@@ -1,0 +1,15 @@
+# Eclipse metadata
+.metadata/
+*.snap
+*.index
+*.xmi
+*.png
+*.ini
+*.properties
+bin/
+.settings/
+.classpath
+.project
+
+# Compiled Java
+*.class

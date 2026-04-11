@@ -1,0 +1,27 @@
+package Questions;
+
+import java.util.HashMap;
+
+public class DuplicateNumber {
+
+	public static void main(String[] args) {
+		HashMap<Integer, Integer> map = new HashMap<>();
+		int Array [] = {2,4,2,3,4,5,3,1};
+		for (int i = 0; i < Array.length; i++) {
+			int data = Array[i];
+		if (map.containsKey(data)) {
+			map.put(data, map.get(data)+1);
+			
+		} else {
+			map.put(data, 1);
+
+		}
+			
+		}
+		for (Integer value : map.keySet()) {
+			System.out.println(value +" = "+ map.get(value));
+		}
+
+	}
+
+}
