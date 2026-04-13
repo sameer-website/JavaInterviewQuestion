@@ -1,5 +1,7 @@
 package Questions;
 
+import java.util.Arrays;
+
 public class Palidrome {
 
 	public static void main(String[] args) {
@@ -12,7 +14,8 @@ public class Palidrome {
 		if (Palindrome.equals(reverse)) {
 			System.out.println("It is palindrome");
 		}
-		
+		int arr[] = {7,5,3,5,2};
+		System.out.println(Arrays.toString(arr));
 
 	}
 
