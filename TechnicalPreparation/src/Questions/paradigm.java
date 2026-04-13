@@ -12,6 +12,7 @@ public class paradigm {
 			}
 		}
 		System.out.println(count);
+		System.out.println("complete Paradigm concept");
 		
 	}
 
